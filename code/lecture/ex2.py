@@ -18,4 +18,4 @@ while True:
 
 startCount = count - 2
 total = storage[startCount] + storage[startCount + 1]
-print(total)
+print('Sum is %d' %total)
