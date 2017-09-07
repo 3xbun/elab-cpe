@@ -6,7 +6,7 @@ storage = {}
 
 while True:
   
-  x = int(input('x = '))
+  x = int(input())
   
   if x == 0:
     if count < 2:
