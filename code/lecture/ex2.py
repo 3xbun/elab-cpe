@@ -9,8 +9,6 @@ while True:
   x = int(input())
   
   if x == 0:
-    if count < 2:
-      print('error')
     break
   
   storage[count] = x
