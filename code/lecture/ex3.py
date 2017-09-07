@@ -12,8 +12,6 @@ while True:
   count += 1  
   
   if check == 'n':
-    if count < 2:
-      print('error')
     break
   
 startCount = count - 2
