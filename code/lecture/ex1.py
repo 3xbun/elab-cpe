@@ -1,7 +1,7 @@
 n = 5
 count = 0
 total = 0
-start_count = n - 3
+startCount = n - 3
 
 while True:
   
@@ -11,7 +11,7 @@ while True:
   elif count < n:
     x = int(input())
     
-    if count > start_count:
+    if count > startCount:
       total = total + x
       
   count = count + 1
