@@ -7,7 +7,6 @@ storage = {}
 while True:
   
   x = int(input('x = '))
-  strX = str(x)
   
   if x == 0:
     if count < 2:
